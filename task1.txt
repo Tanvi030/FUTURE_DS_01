@@ -1,0 +1,88 @@
+Got it 👍 You want **step-by-step detailed instructions** on how to analyze data with **PivotTables & Charts** in Excel. I’ll break this into clear sections so you can follow along on your dataset.
+
+---
+
+## 🔹 Part 1: Monthly Sales Trend
+
+### Steps:
+
+1. **Insert PivotTable**
+
+   * Select your data range (including headers).
+   * Go to **Insert → PivotTable**.
+   * Place PivotTable on a **New Worksheet**.
+
+2. **Set up Fields**
+
+   * Drag **Order Date** → **Rows**.
+   * Drag **Sales** → **Values** (make sure it shows **Sum of Sales**).
+
+3. **Group Dates**
+
+   * Right-click on any date in the **Row Labels**.
+   * Choose **Group…**.
+   * In the pop-up, check **Months** and **Years** → Click **OK**.
+
+4. **Insert Chart**
+
+   * With the PivotTable selected, go to **Insert → Line Chart → Line with Markers**.
+   * Format chart (add Title: “Monthly Sales Trend”).
+
+---
+
+## 🔹 Part 2: Category & Sub-Category Performance
+
+### Steps:
+
+1. **Insert PivotTable** (or reuse the first one by duplicating).
+
+   * Drag **Category** → **Rows**.
+   * Drag **Sub-Category** → **Rows** (below Category).
+   * Drag **Sales** → **Values**.
+   * Drag **Profit** → **Values**.
+
+2. **Insert Chart**
+
+   * Select the PivotTable.
+   * Go to **Insert → Column Chart → Clustered Column**.
+   * Format chart (Chart Title: “Category & Sub-Category Sales & Profit”).
+
+---
+
+## 🔹 Part 3: Top 10 Products by Sales
+
+### Steps:
+
+1. **Insert PivotTable**
+
+   * Drag **Product Name** → **Rows**.
+   * Drag **Sales** → **Values**.
+
+2. **Sort Data**
+
+   * Right-click on any Sales value.
+   * Choose **Sort → Sort Largest to Smallest**.
+
+3. **Filter Top 10**
+
+   * Right-click any Product Name → **Filter → Top 10…**.
+   * In dialog box:
+
+     * “Top” → “10” → “Items” → by **Sum of Sales**.
+
+4. **Insert Chart**
+
+   * With PivotTable selected, go to **Insert → Treemap Chart**.
+   * Format chart (Chart Title: “Top 10 Products by Sales”).
+
+---
+
+✅ Now you’ll have:
+
+* **Line Chart** = Monthly Sales Trend.
+* **Clustered Column Chart** = Category & Sub-Category Performance.
+* **Treemap** = Top 10 Products by Sales.
+
+---
+
+Do you want me to also make a **step-by-step illustrated PDF with screenshots** (like a training manual) so you can directly follow visually?
